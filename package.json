@@ -3,14 +3,12 @@
 	"version": "1.0.0",
 	"description": "Get vanillaJS apps written with modern tools",
 	"main": "index.js",
-	
 	"babel": {
 		"presets": [
 			"@babel/preset-env"
 		]
-	}, 
+	},
 	"browserslist": "> 0.25%, not dead",
-	
 	"scripts": {
 		"start": "webpack serve --open",
 		"build": "webpack",
